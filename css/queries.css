@@ -1,0 +1,160 @@
+/* ############################# */
+/* MEDIA QUERYS */
+@media (max-width: 86em) {
+  .main-header {
+    font-size: 4.5rem;
+  }
+  .margin--right {
+    margin-right: 1.4rem !important;
+  }
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 54.25%;
+  }
+  .main-header {
+    font-size: 4rem;
+  }
+  .secondary-header {
+    font-size: 3.5rem;
+  }
+  .hero-btn {
+    display: block;
+    margin-bottom: 2rem;
+  }
+  .card-text {
+    font-size: 1.75rem;
+  }
+  .game-header {
+    font-size: 1.9rem;
+  }
+  .quiz-photo {
+    width: 80%;
+  }
+  .form-btn {
+    padding: 0.8rem 0;
+  }
+  .quiz-box {
+    column-gap: 1rem;
+  }
+  .forms {
+    padding: 5rem;
+  }
+  .hero-layout {
+    column-gap: 0;
+  }
+  .nav-top {
+    gap: 6rem;
+  }
+}
+
+@media (max-width: 60em) {
+  html {
+    font-size: 48.5%;
+  }
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+  }
+  .grid--4-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+  .main-card {
+    width: 75%;
+    margin: 0 auto 6rem;
+  }
+  .main-card:last-child {
+    margin-bottom: 0;
+  }
+  .secondary-header,
+  .paragraph {
+    text-align: center;
+  }
+  .person {
+    margin-bottom: 6rem;
+  }
+  .person:last-child {
+    margin-bottom: 0;
+  }
+  .main-form,
+  .forms {
+    grid-template-columns: 1fr;
+    row-gap: 0.7rem;
+  }
+  .form-btn {
+    padding: 1.5rem 0;
+  }
+  .main-game-box {
+    grid-template-columns: 1fr;
+  }
+  .quiz-box {
+    grid-template-columns: 1fr 1fr;
+  }
+  .question-box {
+    text-align: center;
+  }
+  .answer-list {
+    align-items: center;
+  }
+  .quiz-photo {
+    width: 75%;
+    margin-bottom: 5rem;
+  }
+  .quiz-photo-box {
+    display: flex;
+    justify-content: center;
+    order: -1;
+  }
+  .title {
+    text-align: start;
+  }
+  .menu-top {
+    display: inline-block;
+  }
+  .nav-top {
+    display: none;
+  }
+}
+@media (max-width: 34.375em) {
+  .hero-layout {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+  .hero-cta {
+    text-align: center;
+  }
+  .hero-img {
+    justify-content: center;
+  }
+  .question-box p {
+    font-size: 1.8rem;
+  }
+
+  .footer-main {
+    gap: 8rem;
+  }
+  .margin--right {
+    margin-right: 0 !important;
+  }
+  .carousel {
+    grid-template-columns: 1fr;
+  }
+  .carousel-tbilisi {
+    height: 50rem;
+    margin-bottom: 5rem;
+  }
+  .carousel-kutaisi {
+    height: 50rem;
+  }
+  .header-also {
+    font-size: 3rem;
+  }
+  .smaller-loc {
+    font-size: 1rem;
+  }
+  .location-flex {
+    gap: 0.3rem;
+  }
+  .main-header {
+    text-align: center;
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "icons": [
+    { "src": "img/icons/e-commerce-icon-icon.png", "type": "image/png,", "sizes": "192x192" },
+    { "src": "img/icons/e-commerce-icon-icon.png", "type": "image/png,", "sizes": "512x512" }
+  ]
+}

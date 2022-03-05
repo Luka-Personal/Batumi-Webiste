@@ -1,0 +1,170 @@
+/* VERY GENERAL */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.3rem rgba(196, 85, 0, 0.5);
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+/* #################################### */
+/* OTHER GENERAL STUFF */
+/* #################################### */
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+}
+.grid--1-cols {
+  grid-template-columns: 1fr;
+}
+.grid--2-cols {
+  grid-template-columns: 1fr 1fr;
+}
+.grid--3-cols {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid--4-cols {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.grid-game {
+  grid-template-columns: 55fr 45fr;
+}
+.grid-form {
+  grid-template-columns: 55fr 45fr;
+}
+/* CONTAINERS */
+.container-hero {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 0 6.4rem;
+}
+.max-container {
+  max-width: 175rem;
+  margin: 0 auto;
+}
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 4.2rem;
+}
+.container-bg {
+  max-width: 150rem;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+/* #################### */
+/* TEXT STUFF */
+.center {
+  text-align: center;
+}
+.main-header {
+  font-size: 5rem;
+  color: #9199bf;
+  letter-spacing: 2px;
+  margin-bottom: 3.2rem;
+}
+.secondary-header {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  color: #333;
+}
+.thirdiary-header {
+  font-size: 2.2rem;
+  color: #888;
+}
+.game-header {
+  font-weight: 600;
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.center-text {
+  text-align: center;
+}
+.paragraph {
+  font-size: 2rem;
+  color: #7b85b2;
+  line-height: 1.5;
+  margin-bottom: 8rem;
+}
+.card-text {
+  font-size: 2rem;
+  color: #444;
+}
+.card-type {
+  margin-bottom: 1.5rem;
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0.3em 1.3em;
+  font-size: 1.3rem;
+  background-color: #66a80f;
+  border-radius: 999px;
+  display: inline-block;
+}
+/* TEXT COLOR */
+.card-spc-love,
+.card-spc-coffee,
+.card-spc-green,
+.card-spc-lang {
+  color: #f03e3e;
+  font-weight: 600;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.card-spc-coffee {
+  color: #4a2c2a;
+}
+.card-spc-lang {
+  color: #1c7ed6;
+}
+.card-spc-green {
+  color: #2b8a3e;
+}
+.scd-color {
+  color: #eee;
+}
+/* ###################### */
+/* BACKGROUND-COLOR */
+.red-bg {
+  background-color: #f03e3e;
+}
+.indigo-bg {
+  background-color: #3b5bdb;
+}
+.blue-bg {
+  background-color: #4dabf7;
+}
+.gray-bg {
+  background-color: #495057;
+}
+.yellow-bg {
+  background-color: #f59f00;
+}
+/* ############################# */
+/* HELPERS */
+.margin--right {
+  margin-right: 6.4rem !important;
+}
+.margin-bottom {
+  margin-bottom: 2rem !important;
+}
+.testimonial-gap {
+  column-gap: 9.6rem !important;
+}
+.margin-top {
+  margin-top: 6.4rem !important;
+}
+.margin-bottom-big {
+  margin-bottom: 6.4rem !important;
+}

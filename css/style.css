@@ -1,0 +1,451 @@
+/* #################################### */
+/* HEADER-TOP */
+.header-top,
+.nav-top,
+.logo {
+  display: flex;
+  justify-content: space-between;
+  background-color: #070a19;
+  padding: 1.2rem 2.4rem;
+  color: #eee;
+  font-size: 2rem;
+  gap: 8rem;
+  font-weight: bold;
+}
+.menu-icon {
+  cursor: pointer;
+  height: 4.5rem;
+  width: 4.5rem;
+}
+.menu-top {
+  display: none;
+  align-items: center;
+}
+.logo-top:link,
+.logo-top:visited {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: -1px 0 #fcc419, 0 1px #fcc419, 1px 0 #fcc419, 0 -1px #fcc419;
+  color: #121a40;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-top,
+.btn-nav {
+  text-decoration: none;
+  list-style-type: none;
+  color: #eee;
+  font-size: 1.72rem;
+  font-weight: 500;
+}
+.last-cta {
+  color: #ff922b;
+  font-weight: 600;
+}
+.last-cta:hover {
+  color: #d9480f;
+  outline: 0.5px solid #d9480f;
+  outline-offset: 5px;
+}
+/* JSJSJ */
+.menu-nav-top {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  padding: 20rem 0 25rem 0;
+  background-color: rgba(252, 235, 222, 0.925);
+}
+.menu-color {
+  color: #d9480f;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+}
+/* #################################### */
+/* HERO SECTION */
+/* #################################### */
+.section-hero {
+  background-color: #0a0f26;
+  padding: 9.6rem 0;
+}
+.hero-img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  transition: all 0.3s;
+}
+.hero-img-property {
+  width: 85%;
+  border-radius: 25px;
+}
+.header-em {
+  color: #ff922b;
+}
+.hero-img:hover {
+  transform: scale(1.02);
+}
+/* HERO-BTN-CTA */
+.hero-btn,
+.hero-btn:link,
+.hero-btn:visited {
+  display: inline-block;
+  padding: 1.7rem 6.4rem;
+  background-color: #f76707;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s;
+  border-radius: 15px;
+}
+.hero-btn:hover,
+.hero-btn:active {
+  background-color: #d9480f;
+}
+.outline:link,
+.outline:visited {
+  background-color: #121a40;
+}
+.outline:hover,
+.outline:active {
+  background-color: #ffe8cc;
+  color: #333;
+  outline: 2px solid #f76707;
+}
+
+/* #################################### */
+/* SMALL TESTIMONIALS */
+.section-testimonials {
+  background-color: #d3d6e5;
+  padding: 5rem 0 5.5rem 0;
+}
+.paragraph.main {
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  color: #d9480f;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.secondary-header.margin {
+  margin-bottom: 6.4rem;
+}
+.customer-img {
+  width: 6.4rem;
+  height: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.7rem;
+  transition: all 0.3s;
+}
+.customer-img:hover {
+  transform: scale(1.1);
+}
+.paragraph-text {
+  font-size: 1.9rem;
+  color: #121a40;
+  margin-bottom: 2.5rem;
+}
+/* ###################################### */
+/* SECTION CARDS */
+.section-cards {
+  background-color: #bdc2d9;
+  padding: 5rem 0 5.5rem 0;
+  cursor: default;
+}
+.main-card {
+  transition: all 0.3s;
+}
+.main-card:hover {
+  transform: translateY(-2rem);
+}
+.info-card {
+  background-color: #d3d6e5;
+  padding: 1.5rem 4.6rem 4.6rem 4.6rem;
+  border-radius: 30px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+}
+.paragraph.title {
+  margin-bottom: 2.7rem;
+  font-weight: bold;
+  color: #333;
+  font-size: 2.4rem;
+}
+
+.card-ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.card-ul li {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.card-icon {
+  color: #f76707;
+  width: 2.7rem;
+  height: 2.7rem;
+}
+.card-img {
+  display: block;
+  width: 100%;
+  border-radius: 30px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+}
+.card-type-cont {
+  display: flex;
+  gap: 1.7rem;
+}
+/* ########################## */
+/* SECTION FORM */
+.section-form {
+  background-color: #070a19;
+  padding: 5rem 0 5.5rem 0;
+}
+.forms {
+  background-color: #d9480f;
+  padding: 6.4rem;
+  border-radius: 20px;
+}
+.form-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-form {
+  margin-top: 5.5rem;
+  row-gap: 1.4rem;
+}
+.form-side .secondary-header {
+  grid-column: 1/-1;
+  color: #ffe8cc;
+}
+.form-item {
+  padding: 0.8em 1.6rem;
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+}
+.form-side *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.3rem rgba(252, 235, 222, 0.5);
+}
+
+.form-btn {
+  padding: 0.666rem 1rem;
+  width: 100%;
+  border: none;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.form-btn:hover {
+  background-color: #fff;
+  color: #d9480f;
+  outline: 3px solid #f76707;
+}
+.label {
+  display: block;
+  font-size: 1.6rem;
+  color: #ffe8cc;
+  margin-left: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+.img-form {
+  width: 100%;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+.img-form:hover {
+  transform: scale(1.02);
+}
+/* ##################### */
+/* ALSO VISIT */
+.visit-carousel {
+  background-color: #d3d6e5;
+  padding: 5rem 0 5.5rem 0;
+}
+.carousel-tbilisi,
+.carousel-kutaisi {
+  background-image: linear-gradient(
+      to left,
+      rgba(30, 30, 31, 0.6),
+      rgba(117, 19, 93, 0)
+    ),
+    url("../img/tbilisi-carousel/tbilisi-main.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 30vw;
+  border-radius: 30px;
+  position: relative;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+.carousel-kutaisi {
+  background-image: linear-gradient(
+      to left,
+      rgba(30, 30, 31, 0.6),
+      rgba(117, 19, 93, 0)
+    ),
+    url("../img/kutaisi-carousel/kutaisi-main.jpg");
+}
+.tbilisi-icon,
+.kutaisi-icon {
+  position: absolute;
+  right: 1%;
+  bottom: 50%;
+  transform: translateY(50%);
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 3rem;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+}
+.tbilisi-icon:hover,
+.kutaisi-icon:hover {
+  color: #bdc2d9;
+}
+.carousel-page {
+  display: flex;
+  grid-area: 1rem;
+  font-size: 10rem;
+  position: absolute;
+  right: 50%;
+  color: #fff;
+  bottom: 0;
+  transform: translateX(50%);
+  user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -moz-user-select: none;
+}
+.selected {
+  color: #f76707;
+}
+.location-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+.location-flex .card-icon {
+  width: 5rem;
+  height: 5rem;
+}
+.header-also {
+  font-size: 4rem;
+  color: #444;
+  font-weight: 500;
+}
+/* SECTION GAME */
+.section-game {
+  padding: 5rem 0 5.5rem 0;
+  background-color: #bdc2d9;
+}
+.question-box p {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #121a40;
+  padding: 0.5rem 0;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.8rem;
+}
+.answer-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+}
+.answer-list li {
+  width: 40%;
+}
+.main-game-box {
+  align-items: center;
+  column-gap: 1rem;
+}
+.quiz-box {
+  row-gap: 3rem;
+  column-gap: 0;
+  font-size: 2rem;
+}
+.quiz-photo {
+  border-radius: 30px;
+  width: 100%;
+  outline: 1px inset #121a40;
+}
+/* ##################### */
+/* FOOTER MAIN */
+
+.footer {
+  background-color: #d3d6e5;
+}
+.footer-main {
+  gap: 15rem;
+  font-size: 1.5rem;
+  padding: 5rem 0 5.5rem 0;
+}
+.footer-main span {
+  display: block;
+}
+.footer-elements a,
+.footer-elements p {
+  text-decoration: none;
+  color: #555;
+  width: fit-content;
+  transition: all 0.3s;
+}
+
+.footer-elements a:hover {
+  transform: scale(1.001);
+}
+.footer-elements p:hover {
+  color: #333;
+}
+
+.footer-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer-elements .thirdiary-header {
+  color: #333;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+.footer-icons {
+  display: flex;
+  font-size: 3rem;
+  justify-content: start;
+  gap: 2rem;
+}
+.footer-icons a {
+  height: 3rem;
+}
+.footer-icon {
+  cursor: pointer;
+  color: #39478c;
+  transition: all 0.3s;
+}
+.footer-icon:hover {
+  color: #202e72;
+  transform: scale(1.1);
+}
