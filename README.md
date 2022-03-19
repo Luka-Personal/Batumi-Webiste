@@ -1,5 +1,3 @@
-# Batumi-Webiste
-
 # Batumi-Webiste-Project
 
 Hi there, want to learn more about Las Vegas of black sea? you are in right hand, my website will give you a rough idea 
