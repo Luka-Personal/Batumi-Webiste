@@ -2,11 +2,13 @@
 * {
   padding: 0;
   margin: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 *:focus {
   outline: none;
+  -webkit-box-shadow: 0 0 0 0.3rem rgba(196, 85, 0, 0.5);
   box-shadow: 0 0 0 0.3rem rgba(196, 85, 0, 0.5);
 }
 
@@ -21,25 +23,34 @@ body {
 /* OTHER GENERAL STUFF */
 /* #################################### */
 .grid {
+  display: -ms-grid;
   display: grid;
+  -webkit-column-gap: 6.4rem;
+  -moz-column-gap: 6.4rem;
   column-gap: 6.4rem;
 }
 .grid--1-cols {
+  -ms-grid-columns: 1fr;
   grid-template-columns: 1fr;
 }
 .grid--2-cols {
+  -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
 }
 .grid--3-cols {
+  -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .grid--4-cols {
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .grid-game {
+  -ms-grid-columns: 55fr 45fr;
   grid-template-columns: 55fr 45fr;
 }
 .grid-form {
+  -ms-grid-columns: 55fr 45fr;
   grid-template-columns: 55fr 45fr;
 }
 /* CONTAINERS */
@@ -160,6 +171,8 @@ body {
   margin-bottom: 2rem !important;
 }
 .testimonial-gap {
+  -webkit-column-gap: 9.6rem !important;
+  -moz-column-gap: 9.6rem !important;
   column-gap: 9.6rem !important;
 }
 .margin-top {
