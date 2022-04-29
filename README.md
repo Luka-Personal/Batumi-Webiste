@@ -9,7 +9,7 @@ Date Finished 3/5/2022 - Слава Украине!
 
 P.S this was long before i learnt js, so just ignore it :DD
 
-Created by - Luka Tsinaridze and bit of google :))))
+Created by - Luka Tsinaridze and bit of google :)))), Languages used - Vanilla Javascript, HTML, CSS
 
 W E B S I T E -- P H O T O S
 
