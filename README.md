@@ -5,7 +5,7 @@ of how this amazing little city looks and feels, and even better it's in winter,
 Vegas city, as mattter of fact this is my first try at creating websites, so at a first glance it might look pretty basic,
 but don't worry i will keep it updated every week or so.
 
-Date Finished 3/5/2022 - Слава Украине!
+Date Finished 3/5/2022 - Слава Україні!
 
 P.S this was long before i learnt js, so just ignore it :DD
 
